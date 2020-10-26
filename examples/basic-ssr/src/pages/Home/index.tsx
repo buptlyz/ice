@@ -4,7 +4,6 @@ import styles from './index.module.scss';
 
 export default function Home(props) {
   logger.info('Home props', props);
-
   const [dataSource, setData] = useState<number[]>([]);
   useEffect(() => {
     setTimeout(() => {
